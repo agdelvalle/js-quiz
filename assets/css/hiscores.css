@@ -1,0 +1,10 @@
+table {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+    background-color: whitesmoke;
+}
+
+th, td{
+    color: darkslategray;
+    padding: 2rem 1rem;
+}

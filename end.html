@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/game.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Quick Quiz - Let's Play!</title>
+  </head>
+  <body>
+    <div class="container flex-center flex-column">
+      <div id="game" class="justify-center flex-column">
+        <h2 id="end-banner">You've finished the quiz!</h2>
+          <h3 class="score-label">Your score:</p>
+          <h3 class="score">This is choice 1.</p>
+      </div>
+      <div class="save-score flex-center flex-column">
+        <h3>Save your score and see if you are among the highest scorers!</h3>
+        <form action="" class="flex-center flex-column">
+          <label for="username">Input user name:</label>
+          <input type="text" name="usename" id="inputName">
+          <button type="submit" class="btn save-btn" onclick="saveHighScore(event)" disabled>Save Score</button>
+        </form>
+      </div>
+      <div class="btns-container flex-column">
+        <a href="/" class="btn">Home</a>
+        <a href="/game.html" class="btn">Play Again</a>
+        <a href="/highscores.html" class="btn">View High Scores</a>
+      </div>
+    </div>
+    <script src="end.js"></script>
+  </body>
+</html>
